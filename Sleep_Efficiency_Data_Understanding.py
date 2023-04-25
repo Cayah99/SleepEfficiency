@@ -357,3 +357,8 @@ tabs = Tabs(tabs=[tab1, tab2, tab3])
 
 curdoc().add_root(tabs)
 curdoc().title = "Sleep Efficiency"
+
+#Download and save file 
+#Open terminal
+#Open folder where you have placed document 
+#Run following command in terminal: bokeh serve --show Sleep_Efficiency_Data_Understanding.py
