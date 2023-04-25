@@ -1,3 +1,5 @@
+#!pip install bokeh
+
 from bokeh.io import curdoc, output_notebook
 from bokeh.layouts import layout, column, row, gridplot
 from bokeh.models import ColumnDataSource, Select, Div, RangeSlider, Range1d, HoverTool, Circle, Grid, Line, LinearAxis, Plot, FactorRange
